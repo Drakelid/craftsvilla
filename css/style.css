@@ -4,12 +4,17 @@ body{
 nav{
     border:1px solid black;
     width:100vw;
-    height:5vh;
+    height:7vh;
+}
+button{
+    
 }
 header{
     border:1px solid black;
     width:100vw;
-    height:5vh;
+    height:40vh;
+    background-image: url(/images/header-hero.webp);
+    background-position:center;
 }
 .logo{
     border:1px solid black;
