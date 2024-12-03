@@ -1,15 +1,17 @@
 body{
     margin: 0 auto;
 }
-nav {
-    border:1px solid black;
-}
-header {
+nav{
     border:1px solid black;
     width:100vw;
     height:5vh;
 }
-.logo {
+header{
+    border:1px solid black;
+    width:100vw;
+    height:5vh;
+}
+.logo{
     border:1px solid black;
 }
 .navbutton {
