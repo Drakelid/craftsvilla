@@ -22,3 +22,29 @@ header {
 button.submit{
     font-size: 15px;
 }
+
+/* STYLING FOR FOOTER */
+footer.mainasAwesomeFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+footer.mainasAwesomeFooter div.footerShortcuts {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 33%;
+    /* background-color: #CCBCA2; */
+}
+footer.mainasAwesomeFooter div.footerShortcuts div.footerShortcutsLogo img
+{
+    width: 200px;
+}
+
+footer.mainasAwesomeFooter div.footerContact {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 67%;
+}
