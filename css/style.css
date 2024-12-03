@@ -1,5 +1,8 @@
 body{
     margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 nav {
     border:1px solid black;
@@ -14,4 +17,8 @@ header {
 }
 .navbutton {
 
+}
+
+button.submit{
+    font-size: 15px;
 }
