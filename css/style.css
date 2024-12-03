@@ -3,6 +3,7 @@ body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #f1e9d9;
 }
 nav {
     border:1px solid black;
@@ -30,21 +31,56 @@ footer.mainasAwesomeFooter {
     margin-top: 30px;
 }
 
-footer.mainasAwesomeFooter div.footerShortcuts {
+div.footerShortcuts {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     width: 33%;
-    /* background-color: #CCBCA2; */
-}
-footer.mainasAwesomeFooter div.footerShortcuts div.footerShortcutsLogo img
-{
-    width: 200px;
+    background-color: #CCBCA2;
+    padding: 35px 0 35px 0;
+    justify-content: space-evenly;
 }
 
-footer.mainasAwesomeFooter div.footerContact {
+div.footerShortcutsLogo img
+{
+    width: 100px;
+}
+
+nav.footerShortcutList {
+    border: 0;
+}
+
+nav.footerShortcutList ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav.footerShortcutList ul li {
+    line-height: 23px;
+}
+nav.footerShortcutList ul li a {
+    text-decoration: none;
+    color: #3E2F12;
+    font-weight: 600;
+}
+footer.mainasAwesomeFooter a:hover {
+    color: #B78262;
+}
+
+div.footerContact {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     width: 67%;
+    background-color: #3E2F12;
+    color: #CCBCA2;
+    padding: 35px;
+}
+
+div.footerContact a {
+    color: #CCBCA2;
+}
+
+div.footerContactOffice {
+    min-width: 220px;
+    margin-right: 20px;
 }
