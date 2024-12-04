@@ -25,13 +25,13 @@ button.submit{
 }
 
 /* STYLING FOR FOOTER */
-footer.mainasAwesomeFooter {
+footer {
     display: flex;
     flex-wrap: nowrap;
     margin-top: 30px;
 }
 
-div.footerShortcuts {
+.footerShortcuts {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -41,32 +41,32 @@ div.footerShortcuts {
     justify-content: space-evenly;
 }
 
-div.footerShortcutsLogo img
+.footerShortcutsLogo img
 {
     width: 100px;
 }
 
-nav.footerShortcutList {
+.footerShortcutList {
     border: 0;
 }
 
-nav.footerShortcutList ul {
+.footerShortcutList ul {
     list-style-type: none;
     padding: 0;
 }
-nav.footerShortcutList ul li {
+.footerShortcutList ul li {
     line-height: 23px;
 }
-nav.footerShortcutList ul li a {
+.footerShortcutList ul li a {
     text-decoration: none;
     color: #3E2F12;
     font-weight: 600;
 }
-footer.mainasAwesomeFooter a:hover {
+footer a:hover {
     color: #B78262;
 }
 
-div.footerContact {
+.footerContact {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -76,11 +76,11 @@ div.footerContact {
     padding: 35px;
 }
 
-div.footerContact a {
+.footerContact a {
     color: #CCBCA2;
 }
 
-div.footerContactOffice {
+.footerContactOffice {
     min-width: 220px;
     margin-right: 20px;
 }
