@@ -5,13 +5,22 @@ nav{
     border:1px solid black;
     width:100vw;
     height:7vh;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.menu{
+
 }
 button{
-    
+
+ background-color: none;
+ border:none;
+ min-width:10%;
 }
 header{
     border:1px solid black;
-    width:100vw;
+    width:100%;
     height:40vh;
     background-image: url(/images/header-hero.webp);
     background-position:center;
@@ -21,4 +30,37 @@ header{
 }
 .navbutton {
 
+}
+.pageGallery{
+    border:1px solid black;
+    background-color:azure;
+    height:30vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5vw;
+    align-items: center;
+}
+.galleryThumb {
+    width:20vw;
+    height:15vh;
+    border:1px solid black;
+    
+}
+.contentSection{
+    background-color:aliceblue;
+    height:50vh;
+    display:flex;
+    flex-direction: row;
+}
+.contentPicture{
+width:30%;
+margin:10%;
+border:1px solid black;
+}
+.sectionContent{
+width:50%;
+margin-right:10%;
+border:1px solid black;
 }
