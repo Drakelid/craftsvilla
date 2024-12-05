@@ -12,34 +12,44 @@
 </head>
 <body>
     <nav>
-        <div class="logo">Logo</div>
-        <button>Home</button>
-        <button>Booking</button>
-        <button>Gallery</button>
-        <button>Feedback</button>
+        <div class="logo"></div>
+        <div class="menu">
+            <button><a href="./"></a>Home</button>
+            <button><a href="./booking.html">Booking</a></button>
+            <button><a href="./gallery.html">Gallery</a></button>
+            <button><a href="./feedback.html">Feedback</a></button>
+        </div>
     </nav>
-
-    <header></header>
+    <header>
+        <div class="testimonials">
+            <div class="testimonialtext">
+                <div class="testimonials">
+                        <div class="rating">****</div>
+                        <div class="comment">Eggcelent service and product! - Maina</div>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
-        <form action="#bookingForm">
+        <form action="#bookingForm" class="bookingForm">
             <h1>Booking</h1>
 
             <h3>Information:</h3>
             <label for="fname"><b>Full name:</b></label>
-            <Input type="text" id="fname" name="fname" placeholder="Enter full name">
+            <Input class="bookingFullName booking" type="text" id="fname" name="fname" placeholder="Enter full name">
             <label for="email"><b>E-mail</b></label>  
-            <input type="email" id="email" name="email" placeholder="Enter e-mail">
+            <input class="bookingEmail booking" type="email" id="email" name="email" placeholder="Enter e-mail">
             <label for="phone"><b>Phone number</b></label>
-            <input type="number" id="phone" name="phone" placeholder="Enter phone number">
+            <input class="bookingPhone booking" type="phone" id="phone" name="phone" placeholder="Enter phone number">
 
             <h3>Company or Personal</h3>
-            <input type="radio" id="personal" name="fav_language" value="personal">
+            <input class="company" type="radio" id="personal" name="personal" value="personal">
             <label for="personal">Personal</label><br>
-            <input type="radio" id="company" name="fav_language" value="company">
+            <input class="personal" type="radio" id="company" name="company" value="company">
             <label for="company">Company</label><br>
 
             <h3>How many are participationg?</h3>
-            <select id="howMany">
+            <select id="howMany" class="howMany">
                 <option value="1">1 </option>
                 <option value="2">2 </option>
                 <option value="3">3</option>
@@ -57,23 +67,27 @@
             <input type="date" id="date" name="date">
 
             <h3>Art Form:</h3>
-            <input type="checkbox" id="mosaic" name="mosaic" value="mosaic">
-            <label for="mosaic"> Mosaic Art </label>
-            <input type="checkbox" id="waterColor" name="waterColor" value="waterColor">
-            <label for="waterColor"> Watercolor Painting </label><br>
-            <input type="checkbox" id="canvas" name="canvas" value="canvas">
-            <label for="canvas"> Canvas Painting </label>
+            <div class="checkboxGroup">
+                <input class="bookingMosaic" type="checkbox" id="mosaic" name="mosaic" value="mosaic">
+                <label for="mosaic"> Mosaic Art </label>
+            </div>
+            <div class="checkboxGroup">
+                <input class="bookingWaterColor" type="checkbox" id="waterColor" name="waterColor" value="waterColor">
+                <label for="waterColor"> Watercolor Painting </label>
+            </div>
+            <div class="checkboxGroup">
+                <input class="bookingCanvas" type="checkbox" id="canvas" name="canvas" value="canvas">
+                <label for="canvas"> Canvas Painting </label>
+            </div>
 
             <h3>Message</h3>
-            <label for="message"></label>
+            <label for="message" class="bookingMessage booking"></label>
             <textarea type="text" id="message" name="message" placeholder="Enter your message" rows="4" cols="50" form="message"></textarea>
 
             <h3>Calender</h3>
-            <iframe src="https://calendar.google.com/calendar/embed?src=6eea785187501c484f4617006f42c25ede90e00ac0360adc5162a4adc4f6948f%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=6eea785187501c484f4617006f42c25ede90e00ac0360adc5162a4adc4f6948f%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="400" height="300" frameborder="0" scrolling="no" class="bookingCalendar"></iframe>
         </form>
 
     </main>
-    <section></section>
-    <section></section>
 </body>
 </html>

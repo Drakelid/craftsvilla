@@ -23,7 +23,7 @@ header{
     border:1px solid black;
     width:100%;
     height:40vh;
-    background-image: url(/images/header-hero.jpg);
+    background-image: url(../images/header-hero.jpg);
     background-position:center;
     background-size: cover;
     display:flex;
@@ -91,7 +91,7 @@ button.submit{
 
 /* Feedback page */
 
-.feedbackForm{
+.feedbackForm, .bookingForm{
     display:block;
     align-self: center;
     width: 400px;   
@@ -102,7 +102,7 @@ button.submit{
         width: 90%;
     }
 }
-.feedback{
+.feedback, .booking{
     display: block;
     width: 100%;
     margin: 10px 0;
@@ -187,4 +187,8 @@ button.submit{
 .socialMediaIcons img {
     width: 50px;
     margin-left: 20px;
+}
+
+.div.checkboxGroup{
+    display: inline-flex;
 }
