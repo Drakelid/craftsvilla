@@ -9,11 +9,10 @@ nav{
     width:100vw;
     height:7vh;
     display:flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 .menu {
-
 }
 .menu button{
     background-color: none;
