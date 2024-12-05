@@ -12,8 +12,25 @@
     <script src="./js/feedback.js" defer></script>
 </head>
 <body>
-    <nav></nav>
-    <header></header>
+    <nav>
+        <div class="logo"></div>
+        <div class="menu">
+            <button><a href="./"></a>Home</button>
+            <button><a href="./booking.html">Booking</a></button>
+            <button><a href="./gallery.html">Gallery</a></button>
+            <button><a href="./feedback.html">Feedback</a></button>
+        </div>
+    </nav>
+    <header>
+        <div class="testimonials">
+            <div class="testimonialtext">
+                <div class="testimonials">
+                        <div class="rating">****</div>
+                        <div class="comment">Eggcelent service and product! - Maina</div>
+                </div>
+            </div>
+        </div>
+    </header>
     <section></section>
     <section></section>
 
@@ -22,13 +39,16 @@
         <form class="feedbackForm" action="#">
 
             <h1>Feedback</h1>
-
+            <label for="feedbackName">Name: </label>
             <input class="feedback feedbackName" type="text" name="feedbackName" id="feedbackName" placeholder="Name">
 
+            <label for="feedbackEmail">Email: </label>
             <input class="feedback feedbackEmail" type="email" name="email" id="feedbackEmail" placeholder="E-mail">
 
+            <label for="feedbackTextarea">Feedback: </label>
             <textarea class="feedback feedbackText" name="feedbackTextarea" id="feedbackTextarea" placeholder="What's on your mind"></textarea>
 
+            <label for="feedbackPicture" class="feedbackPicture">Add image</label>
             <input class="feedback feedbackPicture" type="file" name="feedbackPicture" id="feedbackPicture">
 
             <div class="feedbackStars">
