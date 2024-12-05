@@ -9,21 +9,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="./js/feedback.js" defer></script>
 </head>
 <body>
     <nav></nav>
     <header></header>
-    <section>
-        <h3>Feedback</h3>
+    <section></section>
+    <section></section>
 
-        <input type="text" name="feedbackName" id="feedbackName" placeholder="Name">
+    <main>
+        
+        <form class="feedbackForm" action="#">
 
-        <input type="email" name="email" id="email" placeholder="E-mail">
+            <h1>Feedback</h1>
 
-        <textarea name="feedbackTextarea" id="feedbackTextarea" placeholder="What's on your mind"></textarea>
+            <input class="feedback feedbackName" type="text" name="feedbackName" id="feedbackName" placeholder="Name">
 
-        <button class="submit" type="submit">Submit</button>
-    </section>
+            <input class="feedback feedbackEmail" type="email" name="email" id="feedbackEmail" placeholder="E-mail">
+
+            <textarea class="feedback feedbackText" name="feedbackTextarea" id="feedbackTextarea" placeholder="What's on your mind"></textarea>
+
+            <input class="feedback feedbackPicture" type="file" name="feedbackPicture" id="feedbackPicture">
+
+            <div class="feedbackStars">
+                <!-- skriv følgende for å legge til 5 stjerner med løpende ID : img#feedbackStar$*5 -->
+                <img src="./images/icons8-star-96-full.png" alt="1 star" id="feedbackStar1" onclick="javascript: setFeedbackRating(1)">
+                <img src="./images/icons8-star-96-clear.png" alt="2 star" id="feedbackStar2" onclick="javascript: setFeedbackRating(2)">
+                <img src="./images/icons8-star-96-clear.png" alt="3 star" id="feedbackStar3" onclick="javascript: setFeedbackRating(3)">
+                <img src="./images/icons8-star-96-clear.png" alt="4 star" id="feedbackStar4" onclick="javascript: setFeedbackRating(4)">
+                <img src="./images/icons8-star-96-clear.png" alt="5 star" id="feedbackStar5" onclick="javascript: setFeedbackRating(5)">
+                <input type="hidden" name="rating" id="feedbackStarRating" value="1">
+            </div>
+
+            <button class="feedback feedbackSubmit" type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
     <footer class="mainasAwesomeFooter">
 
         <div class="footerShortcuts">
@@ -49,8 +72,15 @@
             </div>
             <div class="footerNote">
                 <p>If you want to give us feedback you can go to our <a href="./feedback.html">Feedback Page</a></p>
+                <div class="socialMediaIcons">
+                    <img src="./images/icons8-facebook-100.png" alt="Facebook">
+                    <img src="./images/icons8-instagram-100.png" alt="Instagram">
+                    <img src="./images/icons8-twitterx-100.png" alt="X">
+                </div>
             </div>
         </div>
+
+        
         
     </footer>
 

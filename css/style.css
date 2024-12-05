@@ -35,7 +35,6 @@ header{
 
 }
 
-button .submit{}
 .pageGallery{
     border:1px solid black;
     background-color:azure;
@@ -74,8 +73,38 @@ button.submit{
     font-size: 15px;
 }
 
+/* Feedback page */
+
+.feedbackForm{
+    display:block;
+    align-self: center;
+    width: 400px;   
+    margin: auto;
+}
+@media only screen and (max-width: 400px){
+    .feedbackForm {
+        width: 90%;
+    }
+}
+.feedback{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+.feedbackText {
+    height: 100px;
+}
+.feedbackStars {
+    display: flex;
+    justify-content: center;
+}
+.feedbackStars img {
+    width: 50px;
+    margin: 20px 10px;
+}
+
 /* STYLING FOR FOOTER */
-footer .mainasAwesomeFooter {
+.mainasAwesomeFooter {
     display: flex;
     flex-wrap: nowrap;
     margin-top: 30px;
@@ -91,23 +120,10 @@ footer .mainasAwesomeFooter {
     justify-content: space-evenly;
 }
 
-.footerShortcutsLogo img
-{
+.footerShortcutsLogo img {
     width: 100px;
 }
 
-nav .footerShortcutList {
-    border: 0;
-}
-
-nav .footerShortcutList ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav .footerShortcutList ul li {
-    line-height: 23px;
-}
-nav .footerShortcutList ul li a {
 .footerShortcutList {
     border: 0;
 }
@@ -124,7 +140,7 @@ nav .footerShortcutList ul li a {
     color: #3E2F12;
     font-weight: 600;
 }
-footer a:hover {
+.mainasAwesomeFooter a:hover {
     color: #B78262;
 }
 
@@ -145,4 +161,14 @@ footer a:hover {
 .footerContactOffice {
     min-width: 220px;
     margin-right: 20px;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.socialMediaIcons img {
+    width: 50px;
+    margin-left: 20px;
 }
