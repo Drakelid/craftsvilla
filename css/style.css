@@ -12,8 +12,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.menu {
-}
+/* .menu {
+ liker ikke tomme elementer
+} */
 .menu button{
     background-color: none;
     border:none;
@@ -47,9 +48,9 @@ header{
 .logo{
     border:1px solid black;
 }
-.navbutton {
-
-}
+/* .navbutton {
+ liker ikke tomme elementer
+} */
 
 .pageGallery{
     border:1px solid black;
