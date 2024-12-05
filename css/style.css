@@ -75,20 +75,28 @@ header{
     flex-direction: row;
 }
 .contentPicture{
-width:30%;
-margin:10%;
-border:1px solid black;
+    width:30%;
+    margin:10%;
+    border:1px solid black;
 }
 .sectionContent{
-width:50%;
-margin-right:10%;
-border:1px solid black;
+    width:50%;
+    margin-right:10%;
+    border:1px solid black;
 }
 
-button.submit{
+button, .button {
+    border: 5px outset #3E2F12;
+    border-radius: 4px;
     font-size: 15px;
+    padding: 5px;
 }
-
+button:hover, .button:hover {
+    opacity: 0.7;
+}
+button:active, .button:active {
+    border: 5px inset #3E2F12;
+}
 /* Feedback page */
 
 .feedbackForm{
@@ -128,7 +136,9 @@ input.feedbackPicture {
     display: none;
 }
 label.feedbackPicture {
-    text-align: center;
+    display: block;
+    margin: auto;
+    width: fit-content;
 }
 .feedbackStars {
     display: flex;
