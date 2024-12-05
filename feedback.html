@@ -9,26 +9,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="./js/feedback.js" defer></script>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <nav></nav>
-    <header></header>
-    <section></section>
-    <section></section>
+    <nav>
+        <div class="logo"></div>
+        <div class="menu">
+            <button><a href="./"></a>Home</button>
+            <button><a href="./booking.html">Booking</a></button>
+            <button><a href="./gallery.html">Gallery</a></button>
+            <button><a href="./feedback.html">Feedback</a></button>
+        </div>
+    </nav>
+    <header>
+        <div class="testimonials">
+            <div class="testimonialtext">
+                <div class="testimonials">
+                        <div class="rating">****</div>
+                        <div class="comment">Eggcelent service and product! - Maina</div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main>
         
         <form class="feedbackForm" action="#">
 
             <h1>Feedback</h1>
-
+            <label for="feedbackName">Name: </label>
             <input class="feedback feedbackName" type="text" name="feedbackName" id="feedbackName" placeholder="Name">
 
+            <label for="feedbackEmail">Email: </label>
             <input class="feedback feedbackEmail" type="email" name="email" id="feedbackEmail" placeholder="E-mail">
 
+            <label for="feedbackTextarea">Feedback: </label>
             <textarea class="feedback feedbackText" name="feedbackTextarea" id="feedbackTextarea" placeholder="What's on your mind"></textarea>
 
+            <label for="feedbackPicture" class="feedbackPicture button">Add image to feedback</label>
             <input class="feedback feedbackPicture" type="file" name="feedbackPicture" id="feedbackPicture">
 
             <div class="feedbackStars">
@@ -47,8 +65,20 @@
 
     </main>
 
-    <footer class="mainasAwesomeFooter">
+    <section class="customerFeedbacks">
+        <div class="customerFeedback">
+                    <div class="customerFeedbackRating">
+                        <img src="./images/icons8-star-96-full.png" alt="one star">
+                        <img src="./images/icons8-star-96-full.png" alt="two star">
+                        <img src="./images/icons8-star-96-full.png" alt="three star">
+                        <img src="./images/icons8-star-96-full.png" alt="four star">
+                        <img src="./images/icons8-star-96-full.png" alt="five star">
+                    </div>
+                    <div class="customerFeedbackComment">Eggcelent service and product! - Maina</div>
+        </div>
+    </section>
 
+    <footer class="mainasAwesomeFooter">
         <div class="footerShortcuts">
             <div class="footerShortcutsLogo">
                 <img src="./images/craftsvilla-icon.png">
