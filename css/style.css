@@ -87,16 +87,17 @@ header{
 }
 
 button, .button {
-    border: 5px outset #3E2F12;
+    border: 2px outset #3E2F12;
     border-radius: 4px;
     font-size: 15px;
     padding: 5px;
+    background-color: #f1e9d9;
 }
 button:hover, .button:hover {
     opacity: 0.7;
 }
 button:active, .button:active {
-    border: 5px inset #3E2F12;
+    border: 2px inset #3E2F12;
 }
 /* Feedback page */
 
