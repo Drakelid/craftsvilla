@@ -27,6 +27,23 @@ header{
     background-image: url(/images/header-hero.jpg);
     background-position:center;
     background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+}
+.testimonials{
+    background-color:orange;
+    height:7vh;
+    width:100%;
+    text-align: center;
+    flex-direction: row;
+    line-height:7vh;
+}
+.rating{
+    display: inline;
+}
+.comment{
+    display:inline;
 }
 .logo{
     border:1px solid black;
