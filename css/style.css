@@ -84,14 +84,6 @@ header{
     justify-content: center;
     align-items:end;
 }
-.testimonials{
-    background-color:orange;
-    height:7vh;
-    width:100%;
-    text-align: center;
-    flex-direction: row;
-    line-height:7vh;
-}
 .rating{
     display: inline;
 }
@@ -298,3 +290,62 @@ label.feedbackPicture {
 .div.checkboxGroup{
     display: inline-flex;
 }
+/* /mnt/data/www/craftsvilla/testimonials.css */
+/* Purpose: Style the testimonials section with a clean, modern design */
+
+.testimonials {
+    padding: 0rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testimonials__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .testimonials__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .testimonial {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .testimonial__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial__text {
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial__author {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Responsive layout for larger screens */
+  @media (min-width: 768px) {
+    .testimonials__wrapper {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  }
+  
