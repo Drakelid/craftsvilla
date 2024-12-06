@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsvilla</title>
+    <link rel="shortcut icon" href="./images/craftsvilla-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <div class="menu">
+            <button><a href="./"></a>Home</button>
+            <button><a href="./booking.html">Booking</a></button>
+            <button><a href="./gallery.html">Gallery</a></button>
+            <button><a href="./feedback.html">Feedback</a></button>
+        </div>
+    </nav>
+    <header>
+        <div class="testimonials">
+            <div class="testimonialtext">
+                <div class="testimonials">
+                        <div class="rating">****</div>
+                        <div class="comment">Eggcelent service and product! - Maina</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="#bookingForm" class="bookingForm">
+            <h1>Booking</h1>
+
+            <h3>Information:</h3>
+            <label for="fname"><b>Full name:</b></label>
+            <Input class="bookingFullName booking" type="text" id="fname" name="fname" placeholder="Enter full name">
+            <label for="email"><b>E-mail</b></label>  
+            <input class="bookingEmail booking" type="email" id="email" name="email" placeholder="Enter e-mail">
+            <label for="phone"><b>Phone number</b></label>
+            <input class="bookingPhone booking" type="phone" id="phone" name="phone" placeholder="Enter phone number">
+
+            <h3>Company or Personal</h3>
+            <input class="company" type="radio" id="personal" name="personal" value="personal">
+            <label for="personal">Personal</label><br>
+            <input class="personal" type="radio" id="company" name="company" value="company">
+            <label for="company">Company</label><br>
+
+            <h3>How many are participationg?</h3>
+            <select id="howMany" class="howMany">
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="4">5</option>
+                <option value="4">6</option>
+                <option value="4">7</option>
+                <option value="4">8</option>
+                <option value="4">9</option>
+                <option value="4">10</option>
+            </select>
+
+            <h3>Request Date</h3>
+            <label for="date"></label>
+            <input type="date" id="date" name="date">
+
+            <h3>Art Form:</h3>
+            <div class="checkboxGroup">
+                <input class="bookingMosaic" type="checkbox" id="mosaic" name="mosaic" value="mosaic">
+                <label for="mosaic"> Mosaic Art </label>
+            </div>
+            <div class="checkboxGroup">
+                <input class="bookingWaterColor" type="checkbox" id="waterColor" name="waterColor" value="waterColor">
+                <label for="waterColor"> Watercolor Painting </label>
+            </div>
+            <div class="checkboxGroup">
+                <input class="bookingCanvas" type="checkbox" id="canvas" name="canvas" value="canvas">
+                <label for="canvas"> Canvas Painting </label>
+            </div>
+
+            <h3>Message</h3>
+            <label for="message" class="bookingMessage booking"></label>
+            <textarea type="text" id="message" name="message" placeholder="Enter your message" rows="4" cols="50" form="message"></textarea>
+
+            <h3>Calender</h3>
+            <iframe src="https://calendar.google.com/calendar/embed?src=6eea785187501c484f4617006f42c25ede90e00ac0360adc5162a4adc4f6948f%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="400" height="300" frameborder="0" scrolling="no" class="bookingCalendar"></iframe>
+        </form>
+
+    </main>
+</body>
+</html>
