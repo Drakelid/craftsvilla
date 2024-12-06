@@ -168,7 +168,7 @@ button:active, .button:active {
     border-radius: 4px;
     padding: 5px;
 }
-.feedbackName, .feedbackEmail, .bookingName, .bookingEmail {
+.feedbackName, .feedbackEmail, .bookingName, .bookingEmail, .bookingFullName, .bookingPhone{
     border: 1px solid #3E2F12;
     border-radius: 4px;
     padding: 5px;
