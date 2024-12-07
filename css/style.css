@@ -111,23 +111,6 @@ header{
     border:1px solid black;
     
 }
-.contentSection{
-    background-color:aliceblue;
-    height:50vh;
-    display:flex;
-    flex-direction: row;
-}
-.contentPicture{
-    width:30%;
-    margin:10%;
-    border:1px solid black;
-}
-.sectionContent{
-    width:50%;
-    margin-right:10%;
-    border:1px solid black;
-}
-
 button, .button {
     border: 2px outset #3E2F12;
     border-radius: 4px;
@@ -347,4 +330,41 @@ label.feedbackPicture {
       gap: 2rem;
     }
   }
-  
+  /* content section */
+  .contentSection {
+    max-width: 1200px;
+    margin: 2rem auto; /* Center the section horizontally */
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Add a subtle shadow for depth */
+}
+
+.contentPicture img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sectionContent {
+    flex: 1;
+    text-align: left;
+}
+
+.sectionContent h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.sectionContent p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #555;
+}
