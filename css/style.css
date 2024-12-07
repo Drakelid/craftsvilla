@@ -421,6 +421,10 @@ label.feedbackPicture {
     line-height: 1.6;
 }
 
+img {
+    border-radius: 8px;
+}
+
 @media screen and (max-width: 768px) {
     .pricing-item {
         width: calc(100% - 2rem);
