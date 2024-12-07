@@ -6,23 +6,23 @@ body{
     background-color: #f1e9d9;
 }
 nav .logo img {
-    height: 40px; /* consistent branding size */
+    height: 40px;
     width: auto;
 }
 
 nav {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 7vh; /* use min-height for flexible vertical spacing */
+    min-height: 7vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
     background-color: #f1e9d9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky; /* keep the nav visible on scroll */
+    position: sticky;
     top: 0;
-    z-index: 1000; /* ensure the nav stays on top of other content */
+    z-index: 1000;
 }
 
 .menu {
@@ -30,7 +30,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 1.5rem; /* maintain comfortable spacing */
+    gap: 1.5rem;
 }
 
 .menu li {
@@ -42,21 +42,21 @@ nav {
 .menu li a {
     text-decoration: none;
     color: #3E2F12;
-    padding: 0.5rem 0.75rem; /* improve clickable area and readability */
+    padding: 0.5rem 0.75rem;
     transition: color 0.3s ease, background-color 0.3s ease;
-    border-radius: 4px; /* add a subtle shape to hover states */
+    border-radius: 4px;
 }
 
 .menu li a:hover {
     color: #B78262;
-    background-color: rgba(183, 130, 98, 0.15); /* slight background highlight */
+    background-color: rgba(183, 130, 98, 0.15);
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
-        align-items: flex-start; /* stack logo and menu vertically */
+        align-items: flex-start; 
         padding: 0.5rem;
     }
 
@@ -73,7 +73,6 @@ nav {
     }
 }
 header{
-    border:1px solid black;
     width:100%;
     height:40vh;
     background-image: url(../images/header-hero.jpg);
