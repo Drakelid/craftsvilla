@@ -334,7 +334,7 @@ label.feedbackPicture {
   .contentSection {
     max-width: 1200px;
     margin: 2rem auto; /* Center the section horizontally */
-    padding: 2rem;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -367,4 +367,62 @@ label.feedbackPicture {
     font-size: 1.125rem;
     line-height: 1.6;
     color: #555;
+}
+.pricing-table {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pricing-table__title {
+    font-size: 2rem;
+    color: #3E2F12;
+    margin-bottom: 1rem;
+}
+
+.pricing-table__items {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.pricing-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-item__title {
+    font-size: 1.5rem;
+    color: #3E2F12;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-item__price {
+    font-size: 1.25rem;
+    color: #B78262;
+    margin-bottom: 0.75rem;
+}
+
+.pricing-item__description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-item {
+        width: calc(100% - 2rem);
+    }
 }
