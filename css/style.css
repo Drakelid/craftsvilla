@@ -113,6 +113,7 @@ nav {
     .menu li {
         padding: 1rem;
         text-align: center;
+        font-size:1.2rem;
     }
 
     .menu.menu-open {
@@ -288,7 +289,7 @@ label.feedbackPicture {
     text-decoration: none;
     color: #3E2F12;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .mainasAwesomeFooter a:hover {
@@ -524,6 +525,7 @@ img {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        font-size:1rem;
     }
 
     .footerContactOffice {
