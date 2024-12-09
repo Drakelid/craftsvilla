@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script src="./js/script.js" defer></script>
+    
 </head>
 <body>
     <nav>
@@ -24,15 +25,9 @@
             <li><a href="./gallery.html">Gallery</a></li>
             <li><a href="./feedback.html">Feedback</a></li>
         </ul>
-    </nav>    <header>
-        <div class="testimonials">
-            <div class="testimonialtext">
-                <div class="testimonials">
-                        <div class="rating">****</div>
-                        <div class="comment">Eggcelent service and product! - Maina</div>
-                </div>
-            </div>
-        </div>
+    </nav>    
+    
+    <header>
     </header>
 
     <main>
@@ -46,8 +41,16 @@
             <label for="feedbackEmail">Email: </label>
             <input class="feedback feedbackEmail" type="email" name="email" id="feedbackEmail" placeholder="E-mail">
 
+            <label for="feedbackActivity">Craft Kit: </label>
+            <select class="feedback feedbackActivity" name="feedbackActivity" id="feedbackActivity">
+                <option value=""disabled selected>--Choose Craft Kit--</option>
+                <option value="Mosaic Art">Mosaic Art</option>
+                <option value="Watercolor Painting">Watercolor Painting</option>
+                <option value="Canvas Painting">Canvas Painting</option>
+            </select>
+
             <label for="feedbackTextarea">Feedback: </label>
-            <textarea class="feedback feedbackText" name="feedbackTextarea" id="feedbackTextarea" placeholder="What's on your mind"></textarea>
+            <textarea class="feedback feedbackText" name="feedbackTextarea" id="feedbackTextarea" placeholder="What do you think of our Art Kits?"></textarea>
 
             <label for="feedbackPicture" class="feedbackPicture button">Add image to feedback</label>
             <input class="feedback feedbackPicture" type="file" name="feedbackPicture" id="feedbackPicture">
@@ -68,7 +71,7 @@
 
     </main>
 
-    <section class="customerFeedbacks">
+    <!-- <section class="customerFeedbacks">      // HUSK! CSS er endret for "customerFeedbackRating", dette kan ikke brukes atm.
         <div class="customerFeedback">
                     <div class="customerFeedbackRating">
                         <img src="./images/icons8-star-96-full.png" alt="one star">
@@ -79,7 +82,13 @@
                     </div>
                     <div class="customerFeedbackComment">"Eggcelent service and product!" - Maina</div>
         </div>
-    </section>
+    </section> -->
+
+    <section class="testimonials" id="testimonial">
+        <h2 class="testimonials__title">What Our Customers Say</h2>
+        <div class="testimonials__wrapper">
+        </div>
+      </section>
 
     <footer class="mainasAwesomeFooter">
         <div class="footerShortcuts">
@@ -116,7 +125,6 @@
         
         
     </footer>
-
 </body>
 </html>
 
