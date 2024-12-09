@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/gstyle.css">
-    <title>Document</title>
+    <title>Craftsvilla</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/craftsvilla-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <div class="logo">
+            <a href="./">
+                <img src="./images/craftsvilla-icon.png" alt="Craftsvilla Logo" />
+            </a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./booking.html">Booking</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./feedback.html">Feedback</a></li>
+        </ul>
+    </nav>   
     <header>
+
     </header>
     <main>
         <h1>Gallery</h1>
@@ -97,7 +120,43 @@
             <button class="next">&#10095;</button>
         </div>
     </main>
+    <footer class="mainasAwesomeFooter">
+        <div class="footerShortcuts">
+            <div class="footerShortcutsLogo">
+                <img src="./images/craftsvilla-icon.png">
+            </div>
+            <div class="footerShortcutList">
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerContact">
+            <div class="footerContactOffice">
+                <h3>Main office</h3>
+                <p>Main street 1A</p>
+                <p>Tel: +47 815 49 300</p>
+                <p>Mail: post@craftsvilla.com</p>
+            </div>
+            <div class="footerNote">
+                <p>If you want to give us feedback you can go to our <a href="./feedback.html">Feedback Page</a></p>
+                <div class="socialMediaIcons">
+                    <img src="./images/icons8-facebook-100.png" alt="Facebook">
+                    <img src="./images/icons8-instagram-100.png" alt="Instagram">
+                    <img src="./images/icons8-twitterx-100.png" alt="X">
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </footer>
+
     <script src="./js/gscript.js"></script>
-    <footer></footer>
+    <script src="../js/hamburglar.js"></script>
 </body>
 </html>

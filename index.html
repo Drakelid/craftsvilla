@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/craftsvilla-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -18,14 +19,18 @@
                 <img src="./images/craftsvilla-icon.png" alt="Craftsvilla Logo" />
             </a>
         </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul class="menu">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./booking.html">Booking</a></li>
             <li><a href="./gallery.html">Gallery</a></li>
             <li><a href="./feedback.html">Feedback</a></li>
         </ul>
-    </nav>
-    
+    </nav>   
     <header>
 
     </header>
@@ -58,11 +63,16 @@
     <section class="contentSection">
         <div class="sectionContent">
             <h2>Discover Our Unique Crafts</h2>
-            <p>At Craftsvilla, every piece is a story waiting to be told. We bring to life the artistry and craftsmanship that define unique handmade items. From home décor to personalized gifts, explore a world where creativity knows no bounds.</p>
+            <p>At Craftsvilla, every piece tells a story, weaving together tradition, creativity, and passion. We bring to life the artistry and craftsmanship that make handmade items truly one of a kind. From intricate home décor to thoughtfully personalized gifts, our collections celebrate the talent of artisans and the charm of unique designs. Step into a world where creativity knows no limits, and every item holds the potential to inspire and delight.</p>
         </div>
     </section>
+    <section class="testimonials" id="testimonial">
+        <h2 class="testimonials__title">What Our Customers Say</h2>
+        <div class="testimonials__wrapper">
+        </div>
+      </section>
 
-    <section class="testimonials">
+<!--     <section class="testimonials">
         <h2 class="testimonials__title">What Our Customers Say</h2>
         <div class="testimonials__wrapper">
           <article class="testimonial">
@@ -82,7 +92,7 @@
           </article>
         </div>
       </section>
-      <footer class="mainasAwesomeFooter">
+ -->      <footer class="mainasAwesomeFooter">
         <div class="footerShortcuts">
             <div class="footerShortcutsLogo">
                 <img src="./images/craftsvilla-icon.png">
@@ -117,6 +127,6 @@
         
         
     </footer>
-
+<script src="../js/hamburglar.js"></script>
 </body>
 </html>
