@@ -1,0 +1,25 @@
+{
+    "testimonials": [
+      {
+        "name": "Birger",
+        "review": "Super fun and nice experience, learned a lot of neat tricks.",
+        "rating": 4,
+        "activity": "mosaic",
+        "image": "./images/mosaic-art.jpeg"
+      },
+      {
+        "name": "Maina",
+        "review": "Would recommend water painting, very fun and great value. Teacher were very positive and inspiring.",
+        "rating": 4,
+        "activity": "water painting",
+        "image": "./images/water-painting.jpeg"
+      },
+      {
+        "name": "Ingvild",
+        "review": "Great course, good teachers, amazing atmosphere. I Tried the canvas painting and I'm definitely coming back for another course soon.",
+        "rating": 5,
+        "activity": "canvas painting",
+        "image": "./images/canvas-painting.jpeg"
+      }
+    ] 
+  }

@@ -146,7 +146,7 @@ button:active, .button:active {
     border-radius: 4px;
     padding: 5px;
 }
-.feedbackName, .feedbackEmail, .bookingName, .bookingEmail, .bookingFullName, .bookingPhone{
+.feedbackName, .feedbackEmail, .feedbackActivity, .bookingName, .bookingEmail, .bookingFullName, .bookingPhone{
     border: 1px solid #3E2F12;
     border-radius: 4px;
     padding: 5px;
@@ -182,10 +182,10 @@ label.feedbackPicture {
     width: 25px;
     margin: 1px;
 }
-.customerFeedbackRating {
+/* .customerFeedbackRating {
     margin-right: 20px;
 }
-
+ */
 .customerFeedback {
     display: flex;
     align-items: center;
@@ -212,7 +212,7 @@ label.feedbackPicture {
 }
 
 .footerShortcutsLogo img {
-    width: 100px;
+    width: 140px;
 }
 
 .footerShortcutList {
@@ -224,12 +224,13 @@ label.feedbackPicture {
     padding: 0;
 }
 .footerShortcutList ul li {
-    line-height: 23px;
+    line-height: 30px;
 }
 .footerShortcutList ul li a {
     text-decoration: none;
     color: #3E2F12;
     font-weight: 600;
+    font-size: 20px;
 }
 .mainasAwesomeFooter a:hover {
     color: #B78262;
@@ -251,7 +252,7 @@ label.feedbackPicture {
 
 .footerContactOffice {
     min-width: 220px;
-    margin-right: 20px;
+    margin-right: 70px;
 }
 
 .socialMediaIcons {
@@ -326,7 +327,7 @@ label.feedbackPicture {
   /* content section */
   .contentSection {
     max-width: 1200px;
-    margin: 2rem auto; /
+    margin: 2rem auto; 
     padding: 0;
     display: flex;
     flex-direction: row;
