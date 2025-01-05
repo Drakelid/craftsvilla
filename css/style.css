@@ -205,6 +205,9 @@ button:active, .button:active {
     border-radius: 4px;
     padding: 5px;
 }
+textarea {
+    resize: none;
+}
 
 .feedbackName, .feedbackEmail, .feedbackActivity, .bookingName, .bookingEmail, .bookingFullName, .bookingPhone {
     border: 1px solid #3E2F12;

@@ -41,7 +41,7 @@
             <label for="email"><b>E-mail</b></label>  
             <input class="bookingEmail booking" type="email" id="email" name="email" placeholder="Enter e-mail">
             <label for="phone"><b>Phone number</b></label>
-            <input class="bookingPhone booking" type="phone" id="phone" name="phone" placeholder="Enter phone number">
+            <input class="bookingPhone booking" type="tel" id="phone" name="phone" placeholder="Enter phone number">
 
             <h3>Company or Personal</h3>
             <input class="company" type="radio" id="personal" name="personal" value="personal">
@@ -95,13 +95,55 @@
 
             <h3>Message</h3>
             <label for="message" class="bookingMessage booking"></label>
-            <textarea type="text" id="message" name="message" placeholder="Enter your message" rows="4" cols="50" form="message"></textarea>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="4" cols="50"></textarea>
+
 
             <h3>Calender</h3>
             <iframe src="https://calendar.google.com/calendar/embed?src=6eea785187501c484f4617006f42c25ede90e00ac0360adc5162a4adc4f6948f%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="400" height="300" frameborder="0" scrolling="no" class="bookingCalendar"></iframe>
+
+            <br>
+            
+            <button class="feedback feedbackSubmit" type="submit">Submit</button>
+            
         </form>
 
     </main>
+    <footer class="mainasAwesomeFooter">
+        <div class="footerShortcuts">
+            <div class="footerShortcutsLogo">
+                <img src="./images/craftsvilla-icon.png" alt="Craftsvilla Logo">
+            </div>
+            <div class="footerShortcutList">
+                <ul>
+                    <li><a href="./index.html">Homepage</a></li>
+                    <li><a href="./booking.html">Booking</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerContact">
+            <div class="footerContactOffice">
+                <h3>Main office</h3>
+                <p>Main street 1A</p>
+                <p>Tel: +47 815 49 300</p>
+                <p>Mail: post@craftsvilla.com</p>
+            </div>
+            <div class="footerNote">
+                <p>If you want to give us feedback you can go to our <a href="./feedback.html">Feedback Page</a></p>
+                <p>Icons by <a href="https://icons8.com/">Icons8</a></p>
+                <div class="socialMediaIcons">
+                    <img src="./images/icons8-facebook-100.png" alt="Facebook">
+                    <img src="./images/icons8-instagram-100.png" alt="Instagram">
+                    <img src="./images/icons8-twitterx-100.png" alt="X">
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </footer>
     <script src="./js/hamburglar.js"></script>
 </body>
 </html>
