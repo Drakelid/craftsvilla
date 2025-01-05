@@ -204,6 +204,7 @@ button:active, .button:active {
     border: 1px solid #3E2F12;
     border-radius: 4px;
     padding: 5px;
+    resize: none;
 }
 
 .feedbackName, .feedbackEmail, .feedbackActivity, .bookingName, .bookingEmail, .bookingFullName, .bookingPhone {
